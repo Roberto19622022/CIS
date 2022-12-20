@@ -1,0 +1,101 @@
+title{
+    color: rgb(49, 10, 85);
+}
+
+header{
+    background-color: orange;
+    height: 35px;
+}
+
+nav{
+    text-align: center;
+    }
+
+.redes{
+        text-align: right;
+       }
+       
+
+h1{
+    color:black blac;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 1px;
+    text-decoration: overline;
+    font-weight: 80px;
+}
+h2{
+    padding-top: -1px;
+    color: whitesmoke;
+    width: 100%; text-align:center;
+    text-decoration: underline;
+}
+
+
+
+main{
+    height: 500px;
+    background-image: url(fondoceldas.jpe);
+  }
+
+.infobasic{
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    width: 1330px;
+    height: 200px;
+    }
+
+.imagenes{
+    background-color: chartreuse;
+    width: 665x;
+    height: 180px;
+}
+img{
+    min-height: 13px;
+    width: 24%;
+    box-shadow: 2px 2px 15px red;
+    filter: grayscale(80%)
+    }
+img:hover{
+    filter: grayscale(0%) ;
+    transform: rotate(10deg);
+}
+
+.herramientasexpl{
+background-color: goldenrod;
+width: 665px;
+height: 180px;
+}
+p{
+    text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+h3{
+    text-align: center;
+}
+i{
+    margin-left: 25px;
+}
+.misredes{
+    font-size: 25px;
+    margin-left: 13px;
+    border: 2px solid black;
+    padding: 4px;
+    transition: 300ms backgroung ease-in;
+    }
+.misredes:hover{
+    color: red;
+    background: whitesmoke;
+    cursor: pointer;     
+}
+color: r
+
+footer{
+    height: 40px;
+    background-image: url(cielo.jpg);
+}
